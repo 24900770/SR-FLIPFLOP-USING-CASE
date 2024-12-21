@@ -44,6 +44,8 @@ write all the steps invloved
 ```
 **PROGRAM**
 Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by: hariharan M
+RegisterNumber:24900770
 ```
 module experiment6(S,R,clk,Q,Qbar);
 input S,R,clk;
@@ -58,10 +60,7 @@ Qbar=R|((~S)&(Qbar));
 end 
 endmodule
 ```
-```
-Developed by: hariharan M
-RegisterNumber:24900770
-```
+
 **RTL LOGIC FOR FLIPFLOPS**
 ![exp6](https://github.com/user-attachments/assets/8eac7d96-ce61-4078-8f67-d737fdfc0a46)
 
